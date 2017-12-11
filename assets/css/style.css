@@ -1,0 +1,278 @@
+html {
+	min-height: 100%;
+ 	position: relative;
+ 	overflow-y: scroll;
+ }
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url(../images/background.png);
+	margin: 0 0 70px 0;
+	color: #777777;
+
+}
+
+header {
+	text-align: center;
+	border-bottom: 2px solid #cccccc;
+	background-color: #ffffff;
+
+}
+
+main {
+	margin: 30px 0 0;
+	padding-bottom: 30px;
+}
+
+nav {
+	padding: 27px;
+	margin-left: 675px;
+
+}
+
+nav a:link, nav a:visited{
+    text-decoration: none;
+    color: #777777;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: 	#1E90FF;
+    font-weight: 500;
+/*    opacity: 0.8;*/
+
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	margin: 0;
+	height: 60px;
+	border-top: 10px solid #4aaaa5;
+	background-color: #666666;
+	color: #d5cdcd;
+}
+
+footer p {
+	margin-top: 22px;
+}
+
+h1 {
+	float: left;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	font-size: 30px;
+	padding: 20px;
+	color: #ffffff;
+}
+
+h2 {
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+	font-size: 28px;
+	padding: 20px;
+	border-bottom: 2px solid #dddddd;
+}
+
+h3 {
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+	font-size: 22px;
+	padding: 15px;
+	border-bottom: 2px solid #dddddd;
+}
+
+.profilePic {
+	margin: 0 15px 10px 0;
+}
+
+.about {
+	margin-top: 20px;
+}
+
+/*nav a {
+	float: left;
+	margin-left: 15px;
+}*/
+
+.clearfix::after { 
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.content {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.mainContent {
+	width: 610px;
+	height: 100%;
+	margin-right: 20px;
+	float: left;
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+section div p {
+	line-height: 25px;
+}
+
+.sidebar {
+	width: 230px;
+	padding: 20px;
+	float: left;
+	margin-left: 20px;
+	background-color: #ffffff;
+
+}
+
+.socialLinks:hover {
+	opacity: 0.5;
+}
+
+#linkedin {
+	width: 50px;
+	height: 50px;	
+
+}
+
+#git {
+	width: 50px;
+	height: 50px;
+
+}	
+
+#stack {
+	width: 50px;
+	height: 50px;
+
+}
+
+.floats {
+	float: left;
+}
+
+.input {
+	width: 100%;
+	color: #777777;
+}
+
+.links {
+	width: 70%;
+	margin: 10px auto;
+}
+
+.socialLnk {
+	/*width: 33.33333333333%;*/
+	display: inline-block;
+}
+
+.portLnk {
+	height: 150px;
+	width: 25%;
+	margin: 25px;
+	
+}
+
+#lnkOne {
+	background-image: url(../images/prework.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#linkTwo {
+	background-image: url(../images/portRPG.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#lnkThree {
+	background-image: url(../images/porttrivia.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#lnkFour {
+	background-image: url(../images/portrutgers.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#lnkFive {
+	background-image: url(../images/portrps.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#lnkSix {
+	background-image: url(../images/porthangman.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.portButton {
+
+	text-align: center;
+	background-color: #4aaaa5;
+	width:100%;
+	height: 28px;
+	margin-top: 100px;
+	padding-top: 12px;
+}
+
+/*main div section div div div a {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}*/
+
+main div section div div div a:link, main div section div div div a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    }
+
+main div section div div div a:hover {
+    color: #2F4F4F;
+}
+
+/*.portImages {
+	height: 130px;
+	width: 150px;
+}
+
+.portGroups {
+	height: 200px;
+	width: 250px;
+	margin-top: 20px;
+}*/
+
+input[type=submit] {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	border: none;
+	padding: 10px 20px;
+	font-weight: bold;
+	cursor: pointer;	
+}
+input[type=submit]:hover {
+	color: #ffffff;
+	background-color: #1E90FF;
+	border: none;
+	padding: 10px 20px;
+	font-weight: bold;
+	cursor: pointer;	
+}
