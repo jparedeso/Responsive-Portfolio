@@ -326,12 +326,30 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 640px) {
+	h1 {
+		float: none;
+	}
+
+	nav {
+		margin: 0;
+	}
+
 	header {
 		position: static;
 	}	
 
 	.profilePic {
 		float: none;
+		width: 90%;
+		margin: 0;
+		height: auto;
 	}
-
+	
+	body {
+		margin-bottom: 80px;
+	}
+	
+	footer {
+		margin-bottom: 10px;
+	}
 }
