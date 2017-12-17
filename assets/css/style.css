@@ -20,7 +20,7 @@ header {
 }
 
 main {
-	margin: 30px 0 0;
+	margin: 100px 0 0;
 	padding-bottom: 30px;
 }
 
@@ -284,6 +284,13 @@ input[type=submit]:hover {
 	cursor: pointer;	
 }
 
+.navbar {
+	right: 0;
+	left: 0;
+	top: 0;
+	position: fixed;
+}
+
 @media screen and (max-width: 980px) {
 		
 
@@ -369,6 +376,10 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 640px) {
+	main {
+		margin-top: 0px;
+	}
+
 	h1 {
 		float: none;
 	}
@@ -377,7 +388,7 @@ input[type=submit]:hover {
 		margin: 0;
 	}
 
-	header {
+	.navbar {
 		position: static;
 	}	
 
