@@ -388,14 +388,6 @@ input[type=submit]:hover {
 		height: auto;
 	}
 	
-	body {
-		margin-bottom: 80px;
-	}
-
-	footer {
-		margin-bottom: 10px;
-	}
-
 	.portLnk {
 	height: 300px;
 	width: 90%;
